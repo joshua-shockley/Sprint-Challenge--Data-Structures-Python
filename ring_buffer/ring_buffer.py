@@ -18,6 +18,11 @@ class RingBuffer:
 
         return list_buffer_contents
 
+
+rb = RingBuffer(3)
+print(rb.capacity)
+
+
 # ----------------Stretch Goal-------------------
 
 
